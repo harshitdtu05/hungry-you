@@ -7,34 +7,10 @@
     <title>namaste react</title>
   </head>
   <body>
-    <h1>Top of root</h1>
-    <div id="root">
-      <!-- <h1>Hello World</h1> -->
-      <!-- To write JS use the script tag -->
-      <!-- <script>
-      // to create a h1 tag in html using JS
-      const heading = document.createElement("h1");
-      heading.innerHTML = "Hello World from Javascript";
-
-      const root = document.getElementById("root");
-      root.appendChild(heading);
-     </script> -->
-     
-     <h1>Harshit is here</h1>
+    <div id = "root">
+      <h1>Hello World</h1>
     </div>
-    <h1>Bottom of root</h1>
-<!-- The above statement gets rendered before the file being called below -->
-    <script
-      crossorigin
-      src="https://unpkg.com/react@18/umd/react.development.js"
-    ></script>
-    <script
-      crossorigin
-      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
-    ></script>
-
-    <script src = "./App.js"></script> 
-      <!-- Source has been injected into the script -->
+    <script type = "module" src = "./src/App.js"></script>
   </body>
 </html>
 
